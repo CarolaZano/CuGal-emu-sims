@@ -38,13 +38,13 @@ simulation_use_scaledependent_cola = true
 -- Cosmology: LCDM, w0waCDM, DGP, JBD, ... add your own ...
 cosmology_model = "HiCOLA"
 --- CDM density
-cosmology_OmegaCDM = 0.25709568422338497
+cosmology_OmegaCDM = 0.2613859511194583
 --- Baryon density
 cosmology_Omegab = 0.049127967079532854
 -- Massive neutrino density
 cosmology_OmegaMNu = 0.0
 -- Total dark energy density
-cosmology_OmegaLambda = 0.6936842096330288
+cosmology_OmegaLambda = 0.6893939427369555
 -- Effective number of relativistic species
 cosmology_Neffective = 3.046
 -- Temperature of CMB today
@@ -267,7 +267,7 @@ ic_LPT_order = 2
 -- read_particles   (read GADGET file and use that for sim - reconstruct LPT fields if COLA)
 ic_type_of_input = "powerspectrum"
 -- Path to the input (NB: the LCDM spectrum below is an example that comes with Hi-COLA)
-ic_input_filename = "/home/c2042999/HiCOLA_env/Cubic_galileon_emu-ICGweek/Backend_input_parameter_files/P_k_z/Pk_lin_z49_LCDM_backscaled_{}.dat"
+ic_input_filename = "/home/c2042999/HiCOLA_env/Cubic_galileon_emu-ICGweek/Backend_input_parameter_files/P_k_z/Pk_lin_z49_LCDM_backscaled_0.dat"
 -- The redshift of the P(k), T(k) we give as input
 ic_input_redshift = 49.0
 -- The initial redshift of the simulation
